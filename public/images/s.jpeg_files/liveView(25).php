@@ -1,0 +1,22 @@
+
+                        try
+                        {
+                            var linksArray = '  https://live.primis.tech/content/video/hls/hls.0.12.4_2.min.js  https://live.primis.tech/content/prebid/prebidVid.5.18.0_5.min.js   https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31312D31385F31367D7B7331363532323937357D7B433135397D7B536432566E6233523061476C7A593239325A584A6C5A43356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583630307D7B593430307D7B66337D7B4C31303638357DFEFE&userIpAddr=36.255.86.104&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F95.0.4638.69+Safari%2F537.36&debugInformation=&isWePassGdpr=1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=20&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61965c52aa2a0&debugInfo=16522975_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16522975&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2810qmkrtzhj&secondaryContent=&x=600&y=400&pubUrl=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fdisney-announces-new-simpsons-short-for-disney-plus-day%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=tr&flow_horizontalOffset=1&flow_bottomOffset=70&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=12.9634&geoLong=77.5855&vpTemplate=10685&flowMode=below&isRealPreroll=0&playerApiId=primisPlayer&isApp=0&ccpa=0&ccpaConsent=&subId=wegotthiscovered.com'.split(' ');
+
+                            for(var l = 0; l < linksArray.length; l++)
+                            {
+                                if(linksArray[l].length > 10)
+                                {
+                                    var sc = document.createElement('script');
+                                    sc.type = 'text/javascript';
+                                    sc.async = false;
+                                    sc.src = linksArray[l];
+                                    document.head.appendChild(sc);
+                                }
+                            }
+                        }
+                        catch(e)
+                        {
+                            document.write('<script type="text/javascript" src="https://live.primis.tech/content/video/hls/hls.0.12.4_2.min.js">\x3C/script><script type="text/javascript" src="https://live.primis.tech/content/prebid/prebidVid.5.18.0_5.min.js">\x3C/script><script type=' + "'" + 'text/javascript' + "'" + ' language=' + "'" + 'javascript' + "'" + ' src="https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31312D31385F31367D7B7331363532323937357D7B433135397D7B536432566E6233523061476C7A593239325A584A6C5A43356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583630307D7B593430307D7B66337D7B4C31303638357DFEFE&userIpAddr=36.255.86.104&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F95.0.4638.69+Safari%2F537.36&debugInformation=&isWePassGdpr=1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=20&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61965c52aa2a0&debugInfo=16522975_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16522975&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2810qmkrtzhj&secondaryContent=&x=600&y=400&pubUrl=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fdisney-announces-new-simpsons-short-for-disney-plus-day%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=tr&flow_horizontalOffset=1&flow_bottomOffset=70&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=12.9634&geoLong=77.5855&vpTemplate=10685&flowMode=below&isRealPreroll=0&playerApiId=primisPlayer&isApp=0&ccpa=0&ccpaConsent=&subId=wegotthiscovered.com">\x3C/script>');
+                        }
+                        

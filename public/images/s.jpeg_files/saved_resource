@@ -1,0 +1,38 @@
+
+var ftGUID_4214935="5011DF60F0B6D9";
+var ftConfID_4214935="0";
+var ftParams_4214935="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwegotthiscovered.com%2Ftv%2Fdisney-announces-new-simpsons-short-for-disney-plus-day%2F&cachebuster=955628.8006360026";
+var ftKeyword_4214935="";
+var ftCustom_4214935="";
+var ftSection_4214935="";
+var ftSegment_4214935="w2c";
+var ftSegmentList_4214935=[{s:'w2c'}];
+var ftRuleMatch_4214935="0";
+var ftTimestamp_4214935="1637244135";
+var ftGeoC2_4214935="in";
+var ftGeoState_4214935="ka";
+var ftGeoCity_4214935="bangalore";
+var ftISP_4214935="gatik business solutions";
+var ftSpeed_4214935="broadband";
+var ftDMA_4214935="356004";
+var ftLong_4214935="77.58";
+var ftLat_4214935="12.96";
+var ftPostal_4214935="560002";
+var ftTimeZone_4214935="530";
+var ftMobileCarrier_4214935="";
+var ftImp4214935 = {};
+ftImp4214935.privacy = "x";
+ftImp4214935.guidAge = "59";
+ftImp4214935.impID = "AC77E2A6-0939-9813-F913-0E89C0E75E68";
+ftImp4214935.duid = "FT:5011DF60F0B6D9";
+
+ftImp4214935.ft_tpplid = "";
+ftImp4214935.ft_c = {};
+ftImp4214935.gdpr = "";
+ftImp4214935.gdpr_consent = "";
+ftImp4214935.gdpr_pd = "";
+ftImp4214935.oob_consent = "";
+ftImp4214935.gdprStoredConsent = "";
+ftImp4214935.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/421/4214935/3630035/js/j-4214935-3630035.js" id="ftscript_m4214935" name="ftscript_m4214935"></scr'+'ipt>');

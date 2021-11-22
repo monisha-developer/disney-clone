@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0107)https://pre.ads.justpremium.com/v/1.0/t/sync?_c=aqnz75j1637243987448&consentString=undefined&usPrivacy=1YNY -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Justpremium Sync Pixel</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+<script>
+    function getTrackUrl(ssp) {
+        var scope = window;
+        var trParams = '?rid=r-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002'
+            + '&sid=&uid=r-f15e97d3-0eae-4bf8-af7f-c6827ae526a5-523-603439613&vr='
+            + '&ru=https%3A%2F%2Fwegotthiscovered.com%2F'
+            + '&tt=' + new Date().getTime()
+            + '&siw=0'
+            + '&sh='+ scope.screen.height
+            + '&sw=' + scope.screen.width
+            + '&wh=' + scope.innerHeight
+            + '&ww=' + scope.innerWidth
+            + '&an=pixel'
+            + '&vn=ap-northeast-1'
+            + '&sd='
+            + '&_c=' + Math.floor((Math.random() * Math.pow(2, 32)) + 1).toString()
+            + '&et=&aid=&said=&ei=&fc=&sp=&at=&cid=0&ist=&mg=&dl=&dlt=&ev=&vt=&zid=0&dr=0&di=&pr=&cw=&ch=&nt=&st='
+            + '&jp=%7B%22jpuid%22%3A%22r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908%22%2C%22ssp%22%3A%22SSP_VAR%22%7D'
+            + '&ty=cu';
+        trParams = trParams.replace('SSP_VAR', ssp);
+        return 'https://tracking.justpremium.com/tracking.gif' + trParams;
+    }
+
+    function pixelTracking(ssp) {
+        var url = getTrackUrl(ssp);
+        var imgPixel = window.document.createElement("img");
+        imgPixel.style.position = "fixed";
+        imgPixel.style.left = "-9999px";
+        imgPixel.style.top = "-9999px";
+        imgPixel.style.width = "1px";
+        imgPixel.style.height = "1px";
+        imgPixel.src = url;
+        window.document.body.appendChild(imgPixel);
+    }
+
+
+    if (true) {
+        var i = document.createElement('iframe');
+        i.setAttribute('frameBorder', 0);
+        i.src = 'https://u.openx.net/w/1.0/cm?gdpr=0&gdpr_consent=undefined&id=fa4f7893-4738-4b38-9fc3-0dca639c806d&ph=26e53f82-d199-49df-9eca-7b350c0f9646&r=' + encodeURIComponent('https://match.justpremium.com/match/ox?rid=r-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002&jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid=');
+        window.document.body.appendChild(i);
+    }
+    if (true) {
+        var iid = document.createElement('img');
+        iid.setAttribute('src', 'https://ad.360yield.com/server_match?r=' + encodeURIComponent('https://match.justpremium.com/match/id?rid=r-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002&jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid={PUB_USER_ID}&partner_id=2'));
+        window.document.body.appendChild(iid);
+    }
+    if (true) {
+        var anx = document.createElement('img');
+        anx.setAttribute('src', 'https://ib.adnxs.com/getuid?https://match.justpremium.com/match/an?rid=r-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002&jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid=$UID');
+        window.document.body.appendChild(anx);
+    }
+    if (true) {
+        var unruly = document.createElement('img');
+        unruly.setAttribute('src', 'https://sync.1rx.io/usersync2/rmpssp?sub=justpremium&redir=' + encodeURIComponent('https://match.justpremium.com/match/un?rid=r-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002&jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid=[RX_UUID]'));
+        window.document.body.appendChild(unruly);
+    }
+
+    if (true) {
+        var index = document.createElement('iframe');
+        index.setAttribute('frameBorder', 0);
+        index.setAttribute('src', 'https://ssum.casalemedia.com/usermatch?s=189872&cb=' + encodeURIComponent('https://match.justpremium.com/match/ie?jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid='));
+        window.document.body.appendChild(index);
+    }
+
+    if(true) {
+        var gg = document.createElement('img');
+        gg.setAttribute('src', 'https://rtb.gumgum.com/getuid/jp?r='+encodeURIComponent('https://match.justpremium.com/match/gg?jp_uid=r-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908&ex_uid=[UID]')+'&us_privacy=1YNY');
+        window.document.body.appendChild(gg);
+    }
+
+</script><iframe frameborder="0" src="./cm(1).html"></iframe><img src="https://ad.360yield.com/server_match?r=https%3A%2F%2Fmatch.justpremium.com%2Fmatch%2Fid%3Frid%3Dr-9daecda1-f56b-4f33-af93-68c8412bea6f-523-605235002%26jp_uid%3Dr-f359c0c2-de66-4f9e-9407-687795f04f5c-523-603364908%26ex_uid%3D%7BPUB_USER_ID%7D%26partner_id%3D2"><img src="./getuid"><img src="./rmpssp"><iframe frameborder="0" src="./usermatch.html"></iframe><img src="./jp">
+
+
+</body></html>
