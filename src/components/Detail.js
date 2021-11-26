@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
+import { useParams } from "react-router-dom"
 function Detail() {
+    const {id} =useParams();
+    
+    
+    
+    
     return (
         <Container>
         <Background>
-        <img src="/images/dis8.jpeg"/>
+        <img src="/images/baoo.jpg"/>
         </Background>
         <ImageTitle>
-            <img src="/images/logo.svg"/>
+            <img src="/images/scale.png"/>
         </ImageTitle>
         <Controls>
 <PlayButton>
@@ -65,6 +71,7 @@ height:30vh;
 min-height:170px;
 width:35vh;
 min-width:200px;
+margin-top:60px;
 
 img{
     width:100%;
@@ -135,5 +142,5 @@ line-height:1.4;
 font-size:20px;
 margin-top:16px;
 color:rgb(249, 249, 249);
-
+max-width:760px;
 `

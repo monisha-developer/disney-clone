@@ -1,15 +1,51 @@
 import React from 'react'
 import styled from'styled-components'
+import { Link} from "react-router-dom"
+import { selectMovies } from "../features/movie/movieSlice"
+import { useSelector } from "react-redux"
 
 function Movies() {
+    const movies=useSelector(selectMovies);
+
+   
     return (
         <Container>
             <h4>Recommended for You</h4>
             <Content>
+               
+
 
 <Wrap>
+    <Link to={'detail'}>
+    <img src="/images/baoo.jpg"/>
+    </Link>
+</Wrap>
+<Wrap>
+    <img src="/images/2.jpg"/>
+</Wrap>
+<Wrap>
+    <img src="/images/3.png"/>
+</Wrap>
+         <Wrap>
+    <img src="/images/4.jpeg"/>
+</Wrap>
+<Wrap>
+    <img src="/images/5.jpeg"/>
+</Wrap>
+         <Wrap>
+    <img src="/images/6.jpeg"/>
+</Wrap><Wrap>
+    <img src="/images/7.jpeg"/>
+</Wrap>
+           <Wrap>
     <img src="/images/dis2.png"/>
 </Wrap>
+         
+       <Wrap>
+    <img src="/images/dis4.jpeg"/>
+</Wrap>
+           
+         
 <Wrap>
     <img src="/images/dis1.jpeg"/>
 </Wrap>
